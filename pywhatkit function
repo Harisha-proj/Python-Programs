@@ -1,0 +1,8 @@
+#perform google search using pywhatkit
+import pywhatkit
+pywhatkit.search("explain python")
+
+
+#play a youtube video using pywhatkit
+import pywhatkit
+pywhatkit.playonyt("explain python")
