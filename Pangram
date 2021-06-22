@@ -1,0 +1,8 @@
+n=input()
+n1='abcdefghijklmnopqrstuvwxyz'
+for char in n1:
+    if char not in n.lower():
+        print(n,"is not a pangram")
+        break
+else:
+    print(n,"is a pangram")
