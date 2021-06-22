@@ -1,0 +1,11 @@
+#decimal to binary
+n=int(input())
+print(bin(n).replace('0b',''))
+
+#decimal to octal
+n=int(input())
+print(oct(n).replace('0o',''))
+
+#decimal to hexadecimal
+n=int(input())
+print(hex(n).replace('0x',''))
