@@ -1,0 +1,11 @@
+#binary to decimal
+n=input()
+print(int(n,2))
+
+#octal to decimal
+n=input()
+print(int(n,8))
+
+#hexadecimal to decimal
+n=input()
+print(int(n,16))
