@@ -1,0 +1,9 @@
+#octal to hexadecimal
+n=input()
+n1=int(n,8)
+print(hex(n1).replace('0x',''))
+
+# hexadecimal to octal 
+n=input()
+n1=int(n,16)
+print(oct(n1).replace('0o',''))
