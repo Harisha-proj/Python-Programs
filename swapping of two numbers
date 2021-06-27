@@ -1,0 +1,7 @@
+n=int(input("enter the first number:"))
+x=int(input("enter the second number:"))
+temp=n
+n=x
+x=temp
+print(n)
+print(x)
