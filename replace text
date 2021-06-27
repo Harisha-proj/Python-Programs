@@ -1,0 +1,5 @@
+def replacetext(s):
+    s=s.replace(' ','-')
+    return s
+s=input("Enter a text to replace all its spaces with hypens:")
+print(replacetext(s))
